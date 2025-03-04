@@ -81,29 +81,29 @@ FashionMNIST-Classification/
 - **Train the best model** using optimal parameters.
 
 #### 🔧 Model Training & Hyperparameter Tuning
-Optimization Techniques Used
-Adam optimizer (selected through hyperparameter tuning)
-Hyperparameter tuning with KerasTuner to find the best architecture.
-Early stopping to avoid overfitting.
-Hyperparameter Tuning Results
-After 10 trials, the best model configuration found:
-
-Hidden Layer 1: 320 neurons, activation = ReLU
-Hidden Layer 2: 128 neurons, activation = ReLU
-Optimizer: Adam
+Optimization Techniques Used                                                                                       
+Adam optimizer (selected through hyperparameter tuning)                                                            
+Hyperparameter tuning with KerasTuner to find the best architecture.                                               
+Early stopping to avoid overfitting.                                                                               
+Hyperparameter Tuning Results                                                                                      
+After 10 trials, the best model configuration found:                                                               
+                                                                                                                
+Hidden Layer 1: 320 neurons, activation = ReLU                                                                     
+Hidden Layer 2: 128 neurons, activation = ReLU                                                                     
+Optimizer: Adam                                                                                                    
 
 #### 📊 Results
-Final Model Training Performance
-Metric	Value
-Training Accuracy	93.24%
-Validation Accuracy	89.20%
-Test Accuracy	88.13%
-Test Loss	0.4232
-Training Progress
-Epoch 1: Accuracy 78.42%, Validation Accuracy 86.60%
-Epoch 5: Accuracy 89.47%, Validation Accuracy 88.94%
-Epoch 10: Accuracy 91.70%, Validation Accuracy 89.38%
-Epoch 15: Accuracy 93.24%, Validation Accuracy 89.20%
+Final Model Training Performance                                                                                   
+Metric	Value                                                                                                      
+- Training Accuracy	93.24%
+- Validation Accuracy	89.20%
+- Test Accuracy	88.13%
+- Test Loss	0.4232
+Training Progress                                                                                                  
+- Epoch 1: Accuracy 78.42%, Validation Accuracy 86.60%
+- Epoch 5: Accuracy 89.47%, Validation Accuracy 88.94%
+- Epoch 10: Accuracy 91.70%, Validation Accuracy 89.38%
+- Epoch 15: Accuracy 93.24%, Validation Accuracy 89.20%                                                            
 The model achieved a final test accuracy of 88.13%, indicating strong generalization on unseen data.
 
 ### **Requirements**
