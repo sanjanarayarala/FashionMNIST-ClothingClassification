@@ -82,11 +82,11 @@ FashionMNIST-Classification/
 
 #### 🔧 Model Training & Hyperparameter Tuning
 Optimization Techniques Used                                                                                       
-Adam optimizer (selected through hyperparameter tuning)                                                            
-Hyperparameter tuning with KerasTuner to find the best architecture.                                               
-Early stopping to avoid overfitting.                                                                               
-Hyperparameter Tuning Results                                                                                      
-After 10 trials, the best model configuration found:                                                               
+- Adam optimizer (selected through hyperparameter tuing)                                                
+- Hyperparameter tuning with KerasTuner to find the best architecture                  
+- Early stopping to avoid overfitting
+- Hyperparameter Tuning 
+- After 10 trials, the best model configuration found:
                                                                                                                 
 Hidden Layer 1: 320 neurons, activation = ReLU                                                                     
 Hidden Layer 2: 128 neurons, activation = ReLU                                                                     
@@ -94,11 +94,11 @@ Optimizer: Adam
 
 #### 📊 Results
 Final Model Training Performance                                                                                   
-Metric	Value                                                                                                      
+         Metric     Value   
 - Training Accuracy	93.24%
 - Validation Accuracy	89.20%
 - Test Accuracy	88.13%
-- Test Loss	0.4232
+- Test Loss	0.4232                                                                                                 
 Training Progress                                                                                                  
 - Epoch 1: Accuracy 78.42%, Validation Accuracy 86.60%
 - Epoch 5: Accuracy 89.47%, Validation Accuracy 88.94%
