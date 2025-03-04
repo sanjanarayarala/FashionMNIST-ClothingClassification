@@ -12,16 +12,16 @@ The **Fashion MNIST dataset** contains:
 - **60,000 training images**
 - **10,000 test images**
 - **10 clothing categories:**
-  1. T-shirt/top  
-  2. Trouser  
-  3. Pullover  
-  4. Dress  
-  5. Coat  
-  6. Sandal  
-  7. Shirt  
-  8. Sneaker  
-  9. Bag  
-  10. Ankle boot  
+  1.T-shirt/top  
+  2.Trouser  
+  3.Pullover  
+  4.Dress  
+  5.Coat  
+  6.Sandal  
+  7.Shirt  
+  8.Sneaker  
+  9.Bag  
+  10.Ankle boot  
 
 Each image is **28x28 pixels** and has pixel intensity values between **0 and 255**.
 
