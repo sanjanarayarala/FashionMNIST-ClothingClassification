@@ -12,6 +12,7 @@ The **Fashion MNIST dataset** contains:
 - **60,000 training images**
 - **10,000 test images**
 - **10 clothing categories:**
+
   1.T-shirt/top  
   2.Trouser  
   3.Pullover  
